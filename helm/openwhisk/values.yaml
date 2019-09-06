@@ -251,8 +251,8 @@ controller:
 
 # Invoker configurations
 invoker:
-  imageName: "openwhisk/invoker"
-  imageTag: "9bef49f"
+  imageName: "chetanmeh/invoker"
+  imageTag: "k8s-v3"
   imagePullPolicy: "IfNotPresent"
   restartPolicy: "Always"
   port: 8080
